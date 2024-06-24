@@ -66,7 +66,7 @@ derivs =
 
 -- | The total objective is the sum of the objective component functions
 objective :: Double -> Double
-objective x = sum $ map ($x) funs
+objective x = sum $ map ($ x) funs
 
 
 -- | Perform SGD with the given SGD variant.
