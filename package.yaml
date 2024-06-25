@@ -22,18 +22,18 @@ description:
     Import "Numeric.SGD" to use the library.
 
 dependencies:
-- base >= 4.7 && < 5
+- base >= 4.7 && < 4.21
 - containers >= 0.4 && < 0.7
 - pipes >= 4.3 && < 4.4
 - vector >= 0.10 && < 0.13
 - random >= 1.0 && < 1.2
 - random-shuffle >= 0.0.4 && < 0.1
-- primitive >= 0.5 && < 0.7
+- primitive >= 0.5 && < 0.10
 - logfloat >= 0.12 && < 0.14
 - monad-par >= 0.3.4 && < 0.4
 - deepseq >= 1.3 && < 1.5
 - binary >= 0.5 && < 0.9
-- bytestring >= 0.9 && < 0.11
+- bytestring >= 0.9 && < 0.13
 - mtl >= 2.0 && < 2.3
 - filepath >= 1.3 && < 1.5
 - temporary >= 1.1 && < 1.4
